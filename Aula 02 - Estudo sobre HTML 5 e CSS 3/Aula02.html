@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formatação, Listas, Seletores, Background e Bordas</title>
+</head>
+<body>
+    <h1>Formatação</h1>
+
+    <p><b>Negrito</b> - Para adicionar negrito, usamos a tag "b".</p>
+    <p><i>Itálico</i> - Para adicionar itálico, usamos a tag "i".</p>
+    <p><mark>Destacado</mark> - Para adicionar um destaque, usamos a tag "mark".</p>
+    <p><del>Tachado</del> - Para adicionar um risco, usamos a tag "del".</p>
+    <p><sup>Sobrescrito</sup> - Para adicionar um sobrescrito, usamos a tag "sup".</p>
+    <p><sub>Subescrito</sub> - Para adicionar um subescrito, usamos a tag "sub".</p>
+    <hr>
+
+    <h1>Listas</h1>
+    <h3 class="titulo"> * Lista não Ordenada</h3>
+    <p>Para declarar uma lista <mark><b>não ordenada</b></mark>, usamos a tag "ul" e para cada elemento da lista a tag "li".</p>
+
+    <ul>
+        <li>Café</li>
+        <li>bolacha</li>
+        <li>Aveia</li>
+        <li>goiaba</li>
+    </ul>
+
+    <br>
+    <h3 class="titulo"> * Lista Ordenada</h3>
+    <p>Para declarar uma lista <mark><b>Ordenada</b></mark>, usamos a tag "ol" e para cada elemento da lista, a tag "li".</p>
+    
+    <ol>
+        <li>Café</li>
+        <li>bolacha</li>
+        <li>Aveia</li>
+        <li>goiaba</li>
+    </ol>
+
+    <p>Para as listas <mark><b>Ordenadas</b></mark>, podemos colocar diferentes tipos e enumerações.</p>
+    <p>Enumerações: Arábicas, Alfabéticas (maiusculas e minusculas) e Romanas. Definidas pelo "type" após declarar o "ol"</p>
+    <ol type="I">
+        <li>Café</li>
+        <li>bolacha</li>
+        <li>Aveia</li>
+        <li>goiaba</li>
+    </ol>
+    <hr>
+
+    <h1>Seletores</h1>
+    <p>É uma ferramenta que permite selecionar determinados elementos HTML para estilizar via CSS, sem que seja necessário
+        mudar todo o HTML.
+    </p>
+
+    <h2 class="titulo">* Classes</h2>
+    <p>Esse seletor permite alterar a estilização de determinado grupo de elementos que faça parte da classe.</p>
+    <p>Para criar uma classe, declaramos 'class="_nome_da_classe_"' na tag desejada.</p>
+
+    <h2>Exemplo de classes</h2>
+    <h2 class="exh2">Exemplo de classes</h2>
+    <h2>Exemplo de classes</h2>
+    <h2 class="exh2">Exemplo de classes</h2>
+    <h2>Exemplo de classes</h2>
+    <h2 class="exh2">Exemplo de classes</h2>
+
+    <p>Para estilizar o elemento no CSS, declaramos .NOME_DA_CLASSE{...}</p>
+
+    <h2 class="titulo">* Identificadores</h2>
+    <p>Esse seletor permite alterar a estilização de um elemento em especifico desde que seja especificado qual.</p>
+    <p>Para criar um identificador, declaramos 'id="_nome_do_identificador_"' na tag desejada.</p>
+    <p><mark><b>Atenção:</b></mark>  o elemento identificado deve ser único</p>
+
+    <h2>Exemplo de identificador</h2>
+    <h2 id="exid1">Exemplo de identificador</h2>
+    <h2>Exemplo de identificador</h2>
+    <h2 id="exid2">Exemplo de identificador</h2>
+    <h2>Exemplo de identificador</h2>
+    <h2 id="exid3">Exemplo de identificador</h2>
+ 
+
+
+    <p>Para estilizar o elemento no CSS, declaramos #NOME_DO_IDENTIFICADOR{...}</p>
+</body>
+</html>

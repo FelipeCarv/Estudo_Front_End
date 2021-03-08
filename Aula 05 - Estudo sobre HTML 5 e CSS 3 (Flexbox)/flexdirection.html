@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Direction</title>
+
+    <style>
+        h1,h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#555;
+        }
+
+        section{
+            display: flex;
+            background-color: dodgerblue;
+        }
+
+        section div{
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .flex-row{
+            flex-direction: row;
+        }
+        
+        .flex-row-reverse{
+            flex-direction: row-reverse;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .column-reverse{
+            flex-direction: column-reverse;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Flex-Direction:</h1>
+
+    <h2>Row</h2>
+
+    <section class="flex-row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>Row-reverse</h2>
+    <section class="flex-row-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>   
+
+    <h2>column</h2>
+    <section class="column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>   
+
+    <h2>column-reverse</h2>
+    <section class="column-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section> 
+</body>
+</html>

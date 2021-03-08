@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Justify</title>
+
+    <style>
+          h1,h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#555;
+        }
+
+        section{
+            display: flex;
+            background-color: dodgerblue;
+        }
+
+        section div{
+            background-color: antiquewhite;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+
+        .center{
+            justify-content: center;
+        }
+
+        .space-between{
+            justify-content: space-between;
+        }
+
+        .space-around{
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Flex: Justify-content:</h1>
+    <h2>Flex-start</h2>
+    <section class="flex-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>flex-end</h2>
+    <section class="flex-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>   
+
+    <h2>center</h2>
+    <section class="center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>   
+
+    <h2>space-between</h2>
+    <section class="space-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>space-around</h2>
+    <section class="space-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>   
+
+
+</body>
+</html>

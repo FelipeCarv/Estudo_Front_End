@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Flow</title>
+
+    <style>
+
+        h1,h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#555;
+        }
+
+        section{
+            display: flex;
+            background-color: dodgerblue;
+        }
+
+        section div{
+            background-color: antiquewhite;
+            margin: 10px;
+            font-size: 30px;
+            padding: 15px;
+            text-align: center;
+            width: 100px;
+        }
+
+        .row-nowrap{
+            flex-flow: row nowrap;
+        }
+
+        .row-wrap{
+            flex-flow: row wrap;
+        }
+
+        .column-wrap{
+            flex-flow: column wrap;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Flex-Flow</h1>
+    <h2>:Row no Wrap</h2>
+    <section class="row-nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+
+    <h2>:row-wrap</h2>
+    <section class="row-wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+
+    <h2>:Column-wrap</h2>
+    <section class="column-wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+</body>
+</html>
