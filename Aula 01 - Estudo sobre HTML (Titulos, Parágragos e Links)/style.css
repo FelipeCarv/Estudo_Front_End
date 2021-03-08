@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a{
+    font-size: 20px;
+}
+
+a:link{
+  color: rgb(0, 17, 255);  
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: yellowgreen;
+}
+
+img{
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
