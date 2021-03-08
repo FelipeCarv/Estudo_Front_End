@@ -1,0 +1,45 @@
+ul{
+    background-color: bisque;
+}
+
+ol{
+    background-color: bisque;
+}
+
+h2{
+    background-color: whitesmoke
+}
+
+.exh2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+#exid1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(54, 228, 106);
+}
+
+#exid2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+#exid3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(5, 174, 253);
+    background-color: rgb(224, 235, 188);
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(236, 236, 92);
+}
